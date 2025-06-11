@@ -23,7 +23,7 @@ world.toggle_rendering(False)
 p.loadURDF("plane.urdf")
 
 # Spawn target
-target.spawn_falling_sphere()
+target.spawn_falling_cylinder()
 
 # Toggle rendering on after load
 world.toggle_rendering(True)
